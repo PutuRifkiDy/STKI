@@ -9,7 +9,7 @@ function Home() {
             description="This is our identity to fulfill the information retrieval project">
             <div className="grid md:grid-cols-2 justify-center items-center grid-cols-1 gap-28 pt-10 ">
                 <div className="bg-[#0f114c] flex justify-center items-center flex-col rounded-[20px] px-5 py-10 cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out shadow-[0_0_10px_#000000]">
-                    <img src="/images/foto-candra.png" className="rounded-full w-24 h-24 object-cover mt-2" alt="" />
+                    <img src="/images/foto-candra.png" className="rounded-full w-24 h-24 object-cover mt-2 mb-10 border-2 border-white" alt="" />
                     <p className="text-[24px] text-white pt-2 font-semibold text-center">
                         Nyoman Candra Wikananta
                     </p>
@@ -32,7 +32,7 @@ function Home() {
                     </button>
                 </div>
                 <div className="bg-[#0f114c] flex justify-center items-center flex-col rounded-[20px] px-5 py-10 cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out shadow-[0_0_10px_#000000]">
-                    <img src="/images/foto-devasya.png" className="rounded-full w-24 h-24 object-cover mt-2" alt="" />
+                    <img src="/images/foto-devasya.png" className="rounded-full w-24 h-24 object-cover mt-2 mb-10 border-2 border-white" alt="" />
                     <p className="text-[24px] text-white pt-2 font-semibold text-center">
                         Putu Devasya Widyadana
                     </p>
@@ -55,7 +55,7 @@ function Home() {
                     </button>
                 </div>
                 <div className="bg-[#0f114c] flex justify-center items-center flex-col rounded-[20px] px-5 py-10 cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out shadow-[0_0_10px_#000000]">
-                    <img src="/images/foto-rifki.png" className="rounded-full w-24 h-24 object-cover mt-2" alt="" />
+                    <img src="/images/foto-rifki.png" className="rounded-full w-24 h-24 object-cover mt-2 mb-10 border-2 border-white" alt="" />
                     <p className="text-[24px] text-white pt-2 font-semibold text-center">
                         Putu Rifki Dirkayuda
                     </p>
@@ -78,7 +78,7 @@ function Home() {
                     </button>
                 </div>
                 <div className="bg-[#0f114c] flex justify-center items-center flex-col rounded-[20px] px-5 py-10 cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out shadow-[0_0_10px_#000000]">
-                    <img src="/images/foto-tri.png" className="rounded-full w-24 h-24 object-cover mt-2" alt="" />
+                    <img src="/images/foto-tri.png" className="rounded-full w-24 h-24 object-cover mt-2 mb-10 border-2 border-white" alt="" />
                     <p className="text-[24px] text-white pt-2 font-semibold text-center">
                         Nyoman Tri Darma Wahyudi
                     </p>
