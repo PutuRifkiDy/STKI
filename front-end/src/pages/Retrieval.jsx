@@ -31,6 +31,8 @@ export default function Retrieval() {
                                             <div class="text-sm text-gray-800">
                                                 <p class="font-medium text-[#0f114c]">Title:</p>
                                                 <p>${item.titles}</p>
+                                                <p class="font-medium text-[#0f114c]">Abstract:</p>
+                                                <p class="line-clamp-3 max-w-[600px]">${item.summaries}</p>
                                             </div>
                                             <div class="text-sm text-gray-600 mt-2 sm:mt-0 sm:text-right">
                                                 <p class="font-medium">Similarity Percentage:</p>

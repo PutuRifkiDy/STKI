@@ -11,7 +11,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # --- Unduh resource NLTK ---
 nltk.download('stopwords')
 
-# --- Inisialisasi tokenizer, stopwords, stemmer, dan juga flask ---
+# --- Inisialisasi tokenizer, stopwords, stemmer, dan flask ---
 app = Flask(__name__)
 CORS(app)
 tokenizer = RegexpTokenizer(r'\w+')
@@ -61,7 +61,7 @@ def search():
     df_result = df.sort_values(by='Similarity Score', ascending=False)
     
     # Ambil Top 5 dan ubah ke JSON
-    top_5 = df_result[['titles', 'Similarity Score']].head(5)
+    top_5 = df_result[['titles', 'Similarity Score', 'summaries']].head(5)
     results = top_5.to_dict(orient='records')
 
     return jsonify({"query": query, "results": results})
